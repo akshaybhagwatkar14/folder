@@ -1,0 +1,47 @@
+body{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+#nav{
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+   
+    
+}
+#nav p{
+    padding: 0px 20px;
+    font-size: 20px;
+}
+#nav >p> a{
+    color: black;
+    text-decoration: none;
+}
+
+form{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 20%;
+    border-radius: 6px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+form input{
+    padding: 7px;
+    margin: 7px;
+    width: 60%;
+}
+form>#sub{
+    background-color: teal;
+    width: 30%;
+    color: aliceblue;
+    border-radius: 6px;
+    border: none;
+}
+form > h1{
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
